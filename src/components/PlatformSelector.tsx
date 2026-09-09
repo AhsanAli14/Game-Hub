@@ -14,7 +14,7 @@ const PlatformSelector = ({ onSelectPlatform, selectedPlatform }: Props) => {
   if (error) return null;
 
   return (
-    <Box paddingLeft={"40px"}>
+    <Box>
       <Menu.Root>
         <Menu.Trigger asChild>
           <Button variant="outline" size="sm">
